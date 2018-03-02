@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.less';
 import {
   Route,
   Switch,
@@ -15,7 +15,6 @@ class App extends Component {
         <Switch>
           <Route path="/" component={Practice} />
         </Switch>
-
       </div>
     );
   }

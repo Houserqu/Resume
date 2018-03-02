@@ -5,7 +5,7 @@ class Index extends Component {
 
   render(){
     return (
-      <div>
+      <div className='red'>
         123123123
       </div>
     )
