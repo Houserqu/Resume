@@ -5,8 +5,17 @@ class Index extends Component {
 
   render(){
     return (
-      <div className='red'>
-        123123123
+      <div>
+        <header>
+          <div className='header__top'>
+            
+          </div>
+          <div className="header__info">
+          </div>
+        </header>
+        <article>
+
+        </article>
       </div>
     )
   }
