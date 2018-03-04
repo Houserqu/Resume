@@ -10,4 +10,4 @@ const Title = () => {
   );
 }
 
-export default Title;<div>
+export default Title;
