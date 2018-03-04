@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Title from '../component/practice/Title';
 
 class Index extends Component {
   state = {}
@@ -8,7 +9,7 @@ class Index extends Component {
       <div>
         <header>
           <div className='header__top'>
-            
+            <Title />
           </div>
           <div className="header__info">
           </div>
