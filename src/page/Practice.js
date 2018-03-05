@@ -22,7 +22,7 @@ class Index extends Component {
           </div>
           <div className="header__info">
             <AboutMe data={this.props.ResumeStore.data.about} />
-            <Connect data={this.props.ResumeStore.data.about} />
+            <Connect data={this.props.ResumeStore.data.connect} />
           </div>
         </header>
         <article className='main'>
