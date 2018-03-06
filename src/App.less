@@ -26,6 +26,11 @@ body{
 .main {
   height: 500px;
   background-color: @swatch_2;
+
+  .main__left {
+    width: 400px;
+    padding: 20px 30px;
+  }
 }
 
 .header__info {
@@ -63,10 +68,38 @@ body{
 
 .moduletitle {
   .index {
-
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
   }
 
   .title {
+    font-size: 18px;
+  }
+}
 
+.skill {
+  color: #fff;
+  width: 250px;
+
+  h5 {
+    color: @swatch_1
+  }
+}
+
+.skillrank {
+  .rank {
+    height: 2px;
+    width: 100%;
+    background-color: @swatch_6;
+
+    .inline {
+      height: 2px;
+      background-color: @swatch_1;
+    }
+  }
+
+  h6 {
+    margin-bottom: 15px;
   }
 }
