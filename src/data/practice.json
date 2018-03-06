@@ -28,15 +28,15 @@
   "skill": [
     {
       "name": "Javascript",
-      "rank": 8
+      "rank": "80%"
     },
     {
       "name": "Html",
-      "rank": 8
+      "rank": "90%"
     },
     {
       "name": "Css",
-      "rank": 8
+      "rank": "70%"
     }
   ]
 }
