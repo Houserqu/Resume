@@ -4,6 +4,7 @@ import AboutMe from '../component/practice/AboutMe';
 import Connect from '../component/practice/Connect';
 import {inject, observer} from 'mobx-react';
 import Skill from '../component/practice/Skill';
+import Education from '../component/practice/Education';
 
 @inject('ResumeStore')
 @observer
@@ -29,6 +30,7 @@ class Index extends Component {
         <article className='main'>
           <div className='main__left'>
             <Skill />
+            <Education />
           </div>
         </article>
       </div>

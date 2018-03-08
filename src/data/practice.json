@@ -38,5 +38,11 @@
       "name": "Css",
       "rank": "70%"
     }
-  ]
+  ],
+  "education": {
+    "start_time": "2014",
+    "end_time": "2019",
+    "school": "济南大学",
+    "profession": "计算机科学与技术"
+  }
 }

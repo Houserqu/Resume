@@ -5,6 +5,7 @@
 @swatch_4: #888179;
 @swatch_5: #686360;
 @swatch_6: #45423e;
+@swatch_7: #ffffff;
 
 body{
   display: flex;
@@ -71,15 +72,16 @@ body{
     font-size: 14px;
     margin-right: 10px;
     font-weight: bold;
+    color: @swatch_7;
   }
 
   .title {
     font-size: 18px;
+    color: @swatch_7;
   }
 }
 
 .skill {
-  color: #fff;
   width: 250px;
 
   h5 {
@@ -88,6 +90,8 @@ body{
 }
 
 .skillrank {
+  color: @swatch_1;
+
   .rank {
     height: 2px;
     width: 100%;
@@ -101,5 +105,31 @@ body{
 
   h6 {
     margin-bottom: 15px;
+  }
+}
+
+.education {
+  margin-top: 30px;
+  width: 250px;
+
+  .time {
+    color: @swatch_1;
+  }
+
+  .main {
+    display: flex;
+    margin-top: 20px;
+
+    .info {
+      color: @swatch_1;
+      flex: 3
+    }
+
+    .time {
+      flex: 1;
+      //text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+    }
   }
 }
