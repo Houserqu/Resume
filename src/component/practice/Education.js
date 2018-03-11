@@ -12,14 +12,13 @@ class Education extends Component {
         <ModuleTitle index='03' title='教育' />
         <div className='main'>
           <div className='time'>
-            {start_time}
-            <br />
-            -
-            <br />
-            {end_time}
+            <span className="start">{start_time}</span>
+            <span className="connect">-</span>
+            <span className="end">{end_time}</span>
           </div>
           <div className="info">
-            {school}
+            <span className="school">{school}</span>
+            <span className="profession">{profession}</span>
           </div>
         </div>
         
