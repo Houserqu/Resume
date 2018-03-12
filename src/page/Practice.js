@@ -5,6 +5,7 @@ import Connect from '../component/practice/Connect';
 import {inject, observer} from 'mobx-react';
 import Skill from '../component/practice/Skill';
 import Education from '../component/practice/Education';
+import Experience from '../component/practice/Experience';
 
 @inject('ResumeStore')
 @observer
@@ -31,6 +32,9 @@ class Index extends Component {
           <div className='main__left'>
             <Skill />
             <Education />
+          </div>
+          <div className="main__right">
+            <Experience />
           </div>
         </article>
       </div>

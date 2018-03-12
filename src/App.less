@@ -27,10 +27,16 @@ body{
 .main {
   height: 500px;
   background-color: @swatch_2;
+  display: flex;
 
   .main__left {
-    width: 400px;
     padding: 20px 30px;
+    flex:1;
+  }
+
+  .main__right {
+    padding: 20px 30px;
+    flex: 2;
   }
 }
 
@@ -158,4 +164,19 @@ body{
       }
     }
   }
+}
+
+.experience {
+
+}
+
+.experience__item {
+  border: solid 1px @swatch_4;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.experience__list {
+  margin-top: 20px;
 }
