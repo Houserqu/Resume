@@ -6,6 +6,8 @@ import {inject, observer} from 'mobx-react';
 import Skill from '../component/practice/Skill';
 import Education from '../component/practice/Education';
 import Experience from '../component/practice/Experience';
+import Award from '../component/practice/Award';
+import Production from '../component/practice/Production';
 
 @inject('ResumeStore')
 @observer
@@ -35,6 +37,8 @@ class Index extends Component {
           </div>
           <div className="main__right">
             <Experience />
+            <Award />
+            <Production />
           </div>
         </article>
       </div>

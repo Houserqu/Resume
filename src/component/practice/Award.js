@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import ModuleTitle from './ModuleTitle';
 import {inject, observer} from 'mobx-react';
-import ExperienceItem from './ExperienceItem';
+import AwardItem from './AwardItem';
 
 @inject('ResumeStore')
 @observer
-class Experience extends Component {
-  state = {  }
+class Award extends Component {
   render() {
     return (
       <div className='experience'>
-        <ModuleTitle index='02' title='经历'/>
+        <ModuleTitle index='04' title='荣誉'/>
         <div className='experience__list'>
           {
-            this.props.ResumeStore.data.experience.map((item, index) => 
-            <ExperienceItem data={item} key={index}/>)
+            this.props.ResumeStore.data.award.map((item, index) => 
+            <AwardItem data={item} key={index}/>)
           }
           
         </div>
@@ -23,4 +22,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Award;

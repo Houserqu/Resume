@@ -54,5 +54,29 @@
       "responsibility": "前端开发",
       "logo": null
     }
+  ],
+  "award": [
+    {
+      "title": "齐鲁软件大赛",
+      "time": "2015-1-1",
+      "describe": " 决赛三等奖"
+    },
+    {
+      "title": "齐鲁软件大赛",
+      "time": "2015-1-1",
+      "describe": " 决赛三等奖"
+    }
+  ],
+  "production": [
+    {
+      "title": "齐鲁软件大赛",
+      "time": "2015-1-1",
+      "describe": " 决赛三等奖"
+    },
+    {
+      "title": "齐鲁软件大赛",
+      "time": "2015-1-1",
+      "describe": " 决赛三等奖"
+    }
   ]
 }

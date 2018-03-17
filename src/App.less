@@ -25,7 +25,6 @@ body{
 }
 
 .main {
-  height: 500px;
   background-color: @swatch_2;
   display: flex;
 
@@ -208,8 +207,28 @@ body{
       }
     }
   }
+}
 
+.award__item {
+  .awarditem__main{
+    margin: 10px 10px;
 
+    .describe{
+      font-size: 12px;
+      color: @swatch_3;
+    }
+
+    .title {
+      color: #fff;
+      font-size: 15px;
+
+      .time {
+        color: @swatch_3;
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    }
+  }
 }
 
 .experience__list {
