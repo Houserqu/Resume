@@ -5,12 +5,14 @@ import {
   Switch,
 } from 'react-router-dom'
 import Practice from './page/Practice';
+import Tools from './component/tools/Tools';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Switch>
+        <Tools />
+        <Switch >
           <Route path="/" component={Practice} />
         </Switch>
       </div>

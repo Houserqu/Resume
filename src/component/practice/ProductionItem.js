@@ -6,7 +6,7 @@ const ProductionItem = ({data}) => {
     <div className='award__item'>
       <div className="awarditem__main">
         <div className="title">
-          {title}  <span className="time">{start_time} - {end_time}</span>
+          • {title}  <span className="time">{start_time} - {end_time}</span>
         </div>
         <p className="describe">
             {describe}
@@ -15,5 +15,4 @@ const ProductionItem = ({data}) => {
     </div>
   );
 }
-
 export default ProductionItem;

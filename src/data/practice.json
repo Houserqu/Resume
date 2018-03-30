@@ -1,7 +1,7 @@
 {
   "info": {
     "phone": "18953136382",
-    "logo": "https://houser.oss-cn-shanghai.aliyuncs.com/others/351c46fc3a9af6d567978f7cfc3f9d46.jpg"
+    "logo": "/351c46fc3a9af6d567978f7cfc3f9d46.jpg"
   },
   "about": "熟练掌握JavaScript，html5，css3，nodejs等前端开发技术，擅长React技术栈开发，掌握前端工程化开发。熟悉微信相关开发和react-native开发。\n熟悉后端开发，掌握java、php开发、数据库。\n熟悉常用算法、设计模式、网络原理、HTTP协议。\n具备良好英语读写能力",
   "connect": [
@@ -35,14 +35,22 @@
   "skill": [
     {
       "name": "Javascript",
-      "rank": "80%"
-    },
-    {
-      "name": "Html",
       "rank": "90%"
     },
     {
-      "name": "Css",
+      "name": "Html/Css",
+      "rank": "90%"
+    },
+    {
+      "name": "React",
+      "rank": "80%"
+    },
+    {
+      "name": "Node.js",
+      "rank": "80%"
+    },
+    {
+      "name": "PHP",
       "rank": "70%"
     }
   ],
@@ -58,7 +66,7 @@
       "start_time": "2017.08",
       "end_time": "2017.12",
       "responsibility": "配合后端完成基于React的H5网站开发。\n基于hybird的APP开发。",
-      "logo": "https://www.lgstatic.com/thumbnail_300x300/i/image/M00/58/D5/Cgp3O1fWJOSABv-tAAAVO3V2BS0896.png"
+      "logo": "/Cgp3O1fWJOSABv-tAAAVO3V2BS0896.png"
     }
   ],
   "award": [

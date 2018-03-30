@@ -6,7 +6,7 @@ const AwardItem = ({data}) => {
     <div className='award__item'>
       <div className="awarditem__main">
         <div className="title">
-          {title}  <span className="time">{time}</span>
+          • {title}  <span className="time">{time}</span>
         </div>
         <p className="describe">
           {describe}

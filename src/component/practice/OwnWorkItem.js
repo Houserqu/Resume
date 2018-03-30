@@ -6,7 +6,7 @@ const ProductionItem = ({data}) => {
     <div className='list__item'>
       <div className="item__main">
         <div className="title">
-          {title}
+          • {title}
           {
             time ? <span className="time">{time}</span> : null
           }
