@@ -9,13 +9,12 @@ class Award extends Component {
   render() {
     return (
       <div className='experience'>
-        <ModuleTitle index='04' title='荣誉'/>
+        <ModuleTitle index='04' title='获奖情况'/>
         <div className='experience__list'>
           {
             this.props.ResumeStore.data.award.map((item, index) => 
             <AwardItem data={item} key={index}/>)
           }
-          
         </div>
       </div>
     );

@@ -10,7 +10,7 @@ class Experience extends Component {
   render() {
     return (
       <div className='experience'>
-        <ModuleTitle index='02' title='经历'/>
+        <ModuleTitle index='02' title='实习经历'/>
         <div className='experience__list'>
           {
             this.props.ResumeStore.data.experience.map((item, index) => 

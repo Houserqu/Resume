@@ -21,8 +21,6 @@ class Education extends Component {
             <span className="profession">{profession}</span>
           </div>
         </div>
-        
-
       </div>
     );
   }

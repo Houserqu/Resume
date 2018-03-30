@@ -21,7 +21,26 @@ body{
 
 .header {
   background-color: @swatch_1;
-  padding: 10px 20px
+  padding: 10px 20px;
+
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    img {
+      width: 65px;
+      border: 3px solid #fff;
+    }
+  }
+}
+
+.boundary {
+  
+  //border-top: 20px solid red;
+  border-right: 794px solid @swatch_2;
+  border-top: 50px solid @swatch_1;
 }
 
 .main {
@@ -64,6 +83,7 @@ body{
   flex-grow: 1;
   width: 50%;
   padding-right: 50px;
+  white-space: pre-wrap;
 }
 
 .connect__label {
@@ -116,6 +136,7 @@ body{
 .education {
   margin-top: 30px;
   width: 250px;
+  margin-bottom: 20px;
 
   .time {
     color: @swatch_1;
@@ -123,7 +144,7 @@ body{
 
   .main {
     display: flex;
-    margin-top: 20px;
+    margin: 10px;
 
     .info {
       color: @swatch_1;
@@ -132,6 +153,7 @@ body{
       .school {
         display: block;
         margin-bottom: 9px;
+        font-size: 14px;
       }
 
       .profession {
@@ -144,7 +166,7 @@ body{
     .time {
       flex: 1;
       //text-align: center;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: bold;
 
       .start {
@@ -194,6 +216,7 @@ body{
     .responsibility{
       font-size: 12px;
       margin-top: 5px;
+      white-space: pre-wrap;
     }
 
     .title {
@@ -216,6 +239,7 @@ body{
     .describe{
       font-size: 12px;
       color: @swatch_3;
+      white-space: pre-wrap;
     }
 
     .title {
@@ -226,6 +250,37 @@ body{
         color: @swatch_3;
         font-size: 14px;
         margin-left: 10px;
+      }
+    }
+  }
+}
+
+.ownwork{
+  .ownwork__list {
+    margin: 10px;
+    .list__item {
+      .item__main {
+        .describe{
+          font-size: 12px;
+          color: @swatch_3;
+          white-space: pre-wrap;
+        }
+    
+        .title {
+          color: #fff;
+          font-size: 15px;
+    
+          .time {
+            color: @swatch_3;
+            font-size: 14px;
+            margin-left: 10px;
+          }
+
+          .iconfont {
+            cursor: pointer;
+            margin-left: 10px;
+          }
+        } 
       }
     }
   }

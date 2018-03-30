@@ -9,7 +9,7 @@ class Production extends Component {
   render() {
     return (
       <div className='experience'>
-        <ModuleTitle index='05' title='作品'/>
+        <ModuleTitle index='05' title='项目经历'/>
         <div className='experience__list'>
           {
             this.props.ResumeStore.data.production.map((item, index) => 

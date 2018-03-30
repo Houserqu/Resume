@@ -8,6 +8,8 @@ import Education from '../component/practice/Education';
 import Experience from '../component/practice/Experience';
 import Award from '../component/practice/Award';
 import Production from '../component/practice/Production';
+import OwnWork from '../component/practice/OwnWork';
+import Logo from '../component/practice/Logo';
 
 @inject('ResumeStore')
 @observer
@@ -15,7 +17,7 @@ class Index extends Component {
   state = {}
 
   componentDidMount(){
-    console.log(this.props.ResumeStore.data);
+    //console.log(this.props.ResumeStore.data);
   }
 
   render(){
@@ -24,16 +26,19 @@ class Index extends Component {
         <header className='header'>
           <div className='header__top'>
             <Title />
+            <Logo src={this.props.ResumeStore.data.info.logo}/>
           </div>
           <div className="header__info">
             <AboutMe data={this.props.ResumeStore.data.about} />
             <Connect data={this.props.ResumeStore.data.connect} />
           </div>
         </header>
+        <div className="boundary"></div>
         <article className='main'>
           <div className='main__left'>
             <Skill />
             <Education />
+            <OwnWork />
           </div>
           <div className="main__right">
             <Experience />
