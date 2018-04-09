@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Tools />
+        {/* <Tools /> */}
         <Switch >
           <Route path="/" component={Practice} />
         </Switch>
