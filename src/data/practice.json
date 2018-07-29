@@ -3,23 +3,24 @@
     "phone": "18953136382",
     "logo": "/351c46fc3a9af6d567978f7cfc3f9d46.jpg"
   },
-  "about": "熟练掌握JavaScript，html5，css3，nodejs等前端开发技术，擅长React技术栈开发，掌握前端工程化开发。熟悉微信相关开发和react-native开发。\n熟悉后端开发，掌握java、php开发、数据库。\n熟悉常用算法、设计模式、网络原理、HTTP协议。\n具备良好英语读写能力",
+  "about": "熟练掌握JavaScript，html5，css3，nodejs等前端开发技术，擅长React技术栈开发。熟悉微信、小程序相关开发和react-native开发，具备Node全栈开发能力。\n熟悉后端开发，掌握java/php、数据库。\n熟悉网络原理、HTTP协议、设计模式和常见算法。\n具备良好英语读写能力。热爱前端开发，自学能力强。",
   "connect": [
     {
       "label": "姓名",
       "value": "瞿浩"
     },
     {
-      "label": "身份",
-      "value": "大三学生"
-    },
-    {
-      "label": "现居",
-      "value": "济南"
+      "label": "手机",
+      "value": "18953136382"
     },
     {
       "label": "邮箱",
-      "value": "houserqu@gmail.com"
+      "value": "houser@houserqu.com"
+    },
+    {
+      "label": "简历",
+      "value": "resume.houserqu.com",
+      "href": "https://resume.houserqu.com/"
     },
     {
       "label": "博客",
@@ -48,10 +49,6 @@
     {
       "name": "Node.js",
       "rank": "80%"
-    },
-    {
-      "name": "PHP",
-      "rank": "70%"
     }
   ],
   "education": {
@@ -62,11 +59,12 @@
   },
   "experience": [
     {
-      "title": "青盟科技",
-      "start_time": "2017.08",
-      "end_time": "2017.12",
-      "responsibility": "配合后端完成基于React的H5网站开发。\n基于hybird的APP开发。",
-      "logo": "/Cgp3O1fWJOSABv-tAAAVO3V2BS0896.png"
+      "title": "丁香园",
+      "start_time": "2018.07",
+      "end_time": "至今",
+      "post": "前端开发",
+      "department": "技术产品事业部-丁香妈妈产品线",
+      "logo": "/dxylogo.jpg"
     }
   ],
   "award": [
@@ -81,7 +79,7 @@
       "describe": "一等奖-《自助点餐系统》"
     },
     {
-      "title": "信息学院科创之星",
+      "title": "2015年信息学院科创之星",
       "time": "2015.6"
     }
   ],
@@ -110,6 +108,16 @@
       "title": "EI论文",
       "describe": "《Toward Real-Time High-Frequency Stock Monitoring System Using Node.js》",
       "link": "http://https://link.springer.com/chapter/10.1007%2F978-3-319-60618-7_1"
+    },
+    {
+      "title": "Jayce",
+      "describe": "基于websocket通讯的SPA全栈开发框架",
+      "link": "https://github.com/Houserqu/jayce"
+    },
+    {
+      "title": "Resume Builder",
+      "describe": "生成HTML在线简历的工具",
+      "link": "https://github.com/Houserqu/Resume"
     },
     {
       "title": "chrome-tab",
