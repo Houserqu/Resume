@@ -23,10 +23,17 @@ class Tools extends Component {
     });
   }
 
+  // 调用浏览器打印预览
+  windowPrint = () => {
+    console.log('window print');
+    // 显示与打印预览会有差别，可以在此处做dom调整
+    window.print();
+  }
+
   render() {
     return (
       <div className="tools">
-        <button onClick={this.printPDF}>保存到本地</button>
+        <button onClick={this.printPDF}>打印</button>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experienceitem = ({data}) => {
-  const {title, start_time, end_time, responsibility, logo} = data;
+  const {title, start_time, end_time, post, department, logo} = data;
   return (
     <div className='experience__item'>
       <div className="logo">
@@ -12,7 +12,10 @@ const Experienceitem = ({data}) => {
           {title}  <span className="time">{start_time} - {end_time}</span>
         </div>
         <div className="responsibility">
-          {responsibility}
+          {post}
+        </div>
+        <div className="responsibility">
+          {department}
         </div>
       </div>
     </div>
